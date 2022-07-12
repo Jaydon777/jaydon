@@ -9,7 +9,8 @@ body{background-color: black;}
   color: #ffffff;
   margin: auto;
   text-align: center;
-  padding-top: 250px;
+  /* padding-top: 250px; */
+  padding-bottom: 100px;
   font-size: xx-large;
 }
 
@@ -20,7 +21,9 @@ body{background-color: black;}
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-top: 370px;
+  /* padding-top: 370px; */
+  padding-top: 100px;
+  z-index: 1;
 }
 
 .wrapper .button {
@@ -142,3 +145,13 @@ body{background-color: black;}
     transform: translateX(25%);
   }
 }
+
+.temp {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
