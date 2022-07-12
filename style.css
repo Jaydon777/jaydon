@@ -4,43 +4,49 @@
 }
 body{background-color: black;}
 .banner-text {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
   width: 100%;
   position: absolute;
   color: #ffffff;
   margin: auto;
   text-align: center;
   padding-top: 250px;
-  font-size: xx-large;
+  font-size: 55px;
 }
 
 .wrapper {
+  font-family: 'Dancing Script', cursive;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-top: 370px;
+  padding-top: 470px;
 }
 
 .wrapper .button {
- 
+  opacity: 0.8;
+  box-shadow: inset;
   display: inline-block;
   height: 60px;
   width: 60px;
-  margin: 0 5px;
+  margin: 0 10px;
   overflow: hidden;
-  background: #fff;
+  background: rgb(255, 230, 230);
   border-radius: 50px;
   cursor: pointer;
   -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.726);
 }
 
 .wrapper .button:hover {
-  width: 200px;
+  width: 165px;
+  background-color: black;
+
 }
 
 .wrapper .button .icon {
@@ -57,6 +63,7 @@ body{background-color: black;}
 }
 
 .wrapper .button:nth-child(1):hover .icon {
+  
   background: #001133;
 }
 
@@ -82,8 +89,9 @@ body{background-color: black;}
 }
 
 .wrapper .button:hover .icon i {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
+
 
 .wrapper .button span {
   font-size: 20px;
@@ -92,10 +100,11 @@ body{background-color: black;}
   margin-left: 10px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  
 }
 
 .wrapper .button:nth-child(1) span {
-  color: #000e2b;
+  color: #ffffff;
 }
 
 .wrapper .button:nth-child(2) span {
@@ -142,3 +151,14 @@ body{background-color: black;}
     transform: translateX(25%);
   }
 }
+
+.temp{
+  height: 50%;
+  margin: auto;
+  
+}
+
+a{
+  font-size: 30px;
+}
+
